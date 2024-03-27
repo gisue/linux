@@ -33,6 +33,8 @@ Programmi:
 	-cowsay
 	-cmatrix
 	-sl
+	sudo pacman -S btop htop vim neovim ranger neofetch cowsay cmatrix sl lolcat
+
 	-Pokemon(https://gitlab.com/phoneybadger/pokemon-colorscripts):
 		git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 		cd pokemon-colorscripts
@@ -43,6 +45,7 @@ Programmi:
 		git clone https://github.com/pipeseroni/pipes.sh.git
 		./pipes.sh/pipes.sh -h
 	-cava(https://github.com/karlstav/cava?tab=readme-ov-file#installing)
+
 	-starship(https://starship.rs/):
 		curl -sS https://starship.rs/install.sh | sh
 		bash -> eval "$(starship init bash)"
