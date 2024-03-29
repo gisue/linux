@@ -33,14 +33,20 @@ Programmi:
 	-cowsay
 	-cmatrix
 	-sl
-	sudo pacman -S btop htop vim neovim ranger neofetch cowsay cmatrix sl lolcat
+	sudo pacman -S git btop htop vim neovim ranger neofetch cowsay cmatrix sl lolcat
 
 	-Pokemon(https://gitlab.com/phoneybadger/pokemon-colorscripts):
 		git clone https://gitlab.com/phoneybadger/pokemon-colorscripts.git
 		cd pokemon-colorscripts
 		sudo ./install.sh
-	-Colorscript(https://gitlab.com/dwt1/shell-color-scripts)
-	-Cbonsai(https://gitlab.com/jallbrit/cbonsai)
+	-Colorscript(https://gitlab.com/dwt1/shell-color-scripts):
+		git clone https://gitlab.com/dwt1/shell-color-scripts.git
+		cd shell-color-scripts
+		sudo make install
+	-Cbonsai(https://gitlab.com/jallbrit/cbonsai):
+		git clone https://gitlab.com/jallbrit/cbonsai
+		cd cbonsai
+		sudo make install
 	-Pipe.sh(https://github.com/pipeseroni/pipes.sh?tab=readme-ov-file#requirements):
 		git clone https://github.com/pipeseroni/pipes.sh.git
 		./pipes.sh/pipes.sh -h
