@@ -44,3 +44,35 @@ cd ../..
 git clone https://github.com/pipeseroni/pipes.sh.git Programs/pipe.sh
 
 echo "Installation complete!"
+
+--
+
+LINUX
+
+Config:
+    nano .bashrc
+    nano .config/neofetch/config.conf
+
+Installa:
+# AUR
+	pacman -Ssu
+	pacman -S --needed git base-devel
+	git clone https://aur.archlinux.org/yay.git
+	cd yay
+	makepkg -si
+# SHELL
+	sudo pacman -S fish zsh
+# Terminal
+	sudo pacman -S alacritty kitty konsole
+# Comandi
+	sudo pacman -S btop htop neovim ranger neofetch cowsay cmatrix sl
+	yay -S cbonsai-git
+# Installa ChatGPT
+	curl -sSL https://raw.githubusercontent.com/aandrew-me/tgpt/main/install | bash
+
+Tools:
+	btop - htop - top - neovim(nvim)
+
+Comandi utili:
+	tldr "nome di un comando" -> elenca e spiega i vari comandi
+	ranger -> gestore file da terminale
